@@ -3,8 +3,8 @@ import { Navigate, useRoutes } from 'react-router-dom';
 
 import PageLoading from '@/components/page-loading';
 
-const Login = lazy(() => import('@/components/pages/login'));
-const Home = lazy(() => import('@/components/pages/home'));
+const Login = lazy(() => import('@/pages/login'));
+const Home = lazy(() => import('@/pages/home'));
 
 function Routes(): JSX.Element {
   const element = useRoutes([

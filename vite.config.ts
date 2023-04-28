@@ -27,4 +27,9 @@ export default defineConfig({
       customDomId: '__svg__icons__dom__',
     }),
   ],
+  server: {
+    host: '0.0.0.0',
+    port: 4396,
+    https: false,
+  },
 });
